@@ -19,3 +19,4 @@ fi
 # -n : print line number
 # -H : print the file name
 find "$directory" -type f  -name "$name" | xargs grep -nH "$pattern"
+#nice!
